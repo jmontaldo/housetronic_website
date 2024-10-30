@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="pagina web del e-commerce 'Housetronic'">
+    <meta name="keywords" content="e-commerce; electrodomesticos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../media/home.png" type="img/png" sizes="16x16">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Contactenos</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_container--title">
+                <img src="../media/housetronic-logo.png" alt="Housetronic Logo" class="logo-header">
+                <a href="../index.html"><h1 class="title-header">Housetronic</h1></a>
+            </div>
+            <div class="header_container--search">
+                <form name="search" method="GET" action="#">
+                    <p><input type="text" name="buscar" placeholder="Buscar"></p>
+                </form>
+            </div>
+            <div class="header_container--user">
+                <ul>
+                    <li><a href="#"><img src="../media/profile-pic.png" alt="user-pic">Mi cuenta</a></li>
+                    <li><a href="#"><img src="../media/shopping-cart-icon.png" alt="logo de un carrito de compras">Mi carrito</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="header_navbar">
+            <ul class="header_navbar--menu">
+                <li><img src="../media/menu-icon.png" alt="logo de menú">Más productos</li>
+            </ul>
+            <ul class="header_navbar--items">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Televisores</a></li>
+                <li><a href="#">Celulares</a></li>
+                <li><a href="#">Lavarropas</a></li>
+            </ul>
+            <ul class="header_navbar--misc">
+                <li><a href="#">Sucursales</a></li>
+                <li><img src="../media/location-icon.png" alt="logo de ubicación"><a href="#">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <fieldset>
+                <h2 class="subtitle">Contactenos</h2>
+                <form name="contact" method="POST" action="https://formspree.io/f/xanwgkyp">
+                    <label>Nombre: <input type="text" size="30" name="name"></label>
+                    <label>DNI: <input type="number" size="8" name="dni" required="true"></label>
+                    <label>Teléfono: <input type="number" size="10" name="tel-number" placeholder="Ingrese su número sin 0 ni espacios"></label>
+                    <label>Localidad: <input type="text" size="30" name="site"></label>
+                    <label>Email: <input type="email" name="email"></label>
+                    <label>Motivo de consulta:
+                        <select name="motive">
+                            <option>Consulta por compra online</option>
+                            <option>Consulta por compra en sucursal</option>
+                            <option>Otra consulta</option>
+                        </select>
+                    </label>
+                    <label>Consulta: <textarea rows="10" cols="10" name="coments"></textarea></label>
+                    <div class="form-buttons">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </div>
+                </form>
+            </fieldset>
+        </article>
+    </main>
+    <div class="footer-upper-container">
+        <!--Separador de color-->
+    </div>
+    <footer>
+        <div class="footer-main-container">
+            <div class="footer-container">
+                <h2>Housetronic</h2>
+            </div>
+            <ul>
+                <li><img src="../media/instagram.png" alt="Logo Instagram"></li>
+                <li><img src="../media/facebook.png" alt="Logo facebook"></li>
+                <li><img src="../media/twitter.png" alt="Logo X"></li>
+            </ul>
+        </div>
+        <div class="footer-container--items">
+            <ul>
+                <li><p>Categorías</p></li>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Electrodomésticos</a></li>
+                <li><a href="#">Hogar</a></li>
+            </ul>
+            <ul>
+                <li><p>Lo más buscado</p></li>
+                <li><a href="#">Televisores</a></li>
+                <li><a href="#">Celulares</a></li>
+                <li><a href="#">Heladeras</a></li>
+            </ul>
+            <ul>
+                <li><p>Sobre nosotros</p></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Información legal</a></li>
+            </ul>
+            <ul>
+                <li><p>Información</p></li>
+                <li><a href="#">Centro de ayuda</a></li>
+                <li><a href="pages/contact-form.html">Contactenos</a></li>
+                <li><a href="#">Defensa al consumidor</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

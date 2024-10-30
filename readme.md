@@ -1,0 +1,3 @@
+Este proyecto es sobre la página web de un e-commerce de venta de electródomesticos. Está realizado en el marco del proyecto final de la cursada de 'Talento Tech 2024' para el curso 'Front-end Js'.
+De momento cuenta con una sección de contacto, en el footer y una sección de usuario accesible a través del navbar.
+Se reemplazó la idea de la sección de reseñas, por la de usuario con las mismas condiciones de diseño.

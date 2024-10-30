@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="pagina web del e-commerce 'Housetronic'">
+    <meta name="keywords" content="e-commerce; electrodomesticos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="media/home.png" type="img/png" sizes="16x16">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Housetronic</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_container--title">
+                <img src="media/housetronic-logo.png" alt="Housetronic Logo" class="logo-header">
+                <h1 class="title-header">Housetronic</h1>
+            </div>
+            <div class="header_container--search">
+                <form name="search" method="GET" action="#">
+                    <p><input type="text" name="buscar" placeholder="Buscar"></p>
+                </form>
+            </div>
+            <div class="header_container--user">
+                <ul>
+                    <li><a href="pages/user.html"><img src="media/profile-pic.png" alt="user-pic">Mi cuenta</a></li>
+                    <li><a href="#"><img src="media/shopping-cart-icon.png" alt="logo de un carrito de compras">Mi carrito</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="header_navbar">
+            <ul class="header_navbar--menu">
+                <li><img src="media/menu-icon.png" alt="logo de menú"></li>
+            </ul>
+            <ul class="header_navbar--items">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Televisores</a></li>
+                <li><a href="#">Celulares</a></li>
+                <li><a href="#">Lavarropas</a></li>
+            </ul>
+            <ul class="header_navbar--misc">
+                <li><a href="#">Sucursales</a></li>
+                <li><img src="media/location-icon.png" alt="logo de ubicación"><a href="#">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="divisor-banner">
+            </div>
+            <div class="first-banner">
+                <ul>
+                    <li><img src="media/visa.png" alt="logo de Visa"></li>
+                    <li><img src="media/card.png" alt="logo de Mastercard"></li>
+                    <li><img src="media/american-express.png" alt="logo de American Express"></li>
+                    <li>Paga con crédito y débito<br><a href="#">Ver promociones</a></li>
+                </ul>
+                <ul class="first-banner-border">
+                    <li><img src="media/dollar.png" alt="Icono de dinero"></li>
+                    <li>Aprovecha nuestros descuentos exclusivos.<br><a href="#">Conocer más</a></li>
+                </ul>
+                <ul class="first-banner-border">
+                    <li><img src="media/box.png" alt="Icono de caja cerrada"></li>
+                    <li>Envíos a todo el país y retiro gratis<br><a href="#">Sucursales</a></li>
+                </ul>
+            </div>
+            <h2 class="subtitle">Las mejores ofertas</h2>
+            <div class="product_container">
+                <div class="product_container--card">
+                    <img src="media/productos/heladeras/heladera.jpg" alt="Heladera con freezer gris">
+                    <p>Heladera con freezer gris</p>
+                    <p><strong>$1.000.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$1.200.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/televisores/televisor.jpeg" alt="Smart TV LED 55"">
+                    <p>Smart TV LED 55"</p>
+                    <p><strong>$800.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$900.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/heladeras/heladera-3.jpg" alt="Heladera simple con freezer metalizada">
+                    <p>Heladera simple con freezer</p>
+                    <p><strong>$1.100.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$1.200.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis mañana!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/celulares/celular.jpeg" alt="Celular black storm">
+                    <p>Celular black storm</p>
+                    <p><strong>$600.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$700.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="divisor">
+            <div>
+                <p class="divisor-text">Todo lo mejor para tu hogar</p>
+            </div>                   
+        </aside>
+        <article>
+            <h2 class="subtitle">Lo último en telefonía</h2>
+            <div class="product_container">
+                <div class="product_container--card">
+                    <img src="media/productos/celulares/celular.jpeg" alt="Telefono celular">
+                    <p>Celular negro sofisticado</p>
+                    <p><strong>$900.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$1.000.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/celulares/celular-2.jpeg" alt="Telefono celular negro">
+                    <p>Celular negro Dark Night</p>
+                    <p><strong>$950.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$1.000.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/celulares/celular-3.jpeg" alt="Teléfono celular negro">
+                    <p>Heladera simple con freezer</p>
+                    <p><strong>$700.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$750.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis mañana!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/celulares/celular.jpeg" alt="Celular black storm">
+                    <p>Celular black storm</p>
+                    <p><strong>$600.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$700.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <aside class="divisor-2">
+            <div>
+                <p class="divisor-text">¡Aprovecha nuestros descuentos!</p>
+            </div>                   
+        </aside>
+        <article>
+            <h2 class="subtitle">Lo más buscado</h2>
+            <div class="product_container">
+                <div class="product_container--card">
+                    <img src="media/productos/televisores/televisor-3.jpg" alt="Televisor">
+                    <p>Smart TV LED 60"</p>
+                    <p><strong>$1.000.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$1.100.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/heladeras/heladera-3.jpg" alt="Heladera">
+                    <p>Heladera con freezer</p>
+                    <p><strong>$1.200.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$1.400.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/televisores/televisor-2.jpg" alt="Televisor">
+                    <p>Televisor Smart TV</p>
+                    <p><strong>$800.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$850.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis mañana!</p>
+                    </div>
+                </div>
+                <div class="product_container--card">
+                    <img src="media/productos/celulares/celular.jpeg" alt="Celular black storm">
+                    <p>Celular black storm</p>
+                    <p><strong>$600.000</strong></p>
+                    <div class="product_container--inside_container">
+                        <p><del>$700.000</del></p>
+                        <img src="media/discount.png" alt="Etiqueta con porcentaje">
+                    </div>
+                    <div class="delivery-card">
+                        <p>¡Llega gratis hoy!</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <div class="footer-upper-container">
+        <!--Separador de color-->
+    </div>
+    <footer>
+        <div class="footer-main-container">
+            <div class="footer-container">
+                <h2>Housetronic</h2>
+            </div>
+            <ul>
+                <li><img src="media/instagram.png" alt="Logo Instagram"></li>
+                <li><img src="media/facebook.png" alt="Logo facebook"></li>
+                <li><img src="media/twitter.png" alt="Logo X"></li>
+            </ul>
+        </div>
+        <div class="footer-container--items">
+            <ul>
+                <li><p>Categorías</p></li>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Electrodomésticos</a></li>
+                <li><a href="#">Hogar</a></li>
+            </ul>
+            <ul>
+                <li><p>Lo más buscado</p></li>
+                <li><a href="#">Televisores</a></li>
+                <li><a href="#">Celulares</a></li>
+                <li><a href="#">Heladeras</a></li>
+            </ul>
+            <ul>
+                <li><p>Sobre nosotros</p></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Información legal</a></li>
+            </ul>
+            <ul>
+                <li><p>Información</p></li>
+                <li><a href="#">Centro de ayuda</a></li>
+                <li><a href="pages/contact-form.html">Contactenos</a></li>
+                <li><a href="#">Defensa al consumidor</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
