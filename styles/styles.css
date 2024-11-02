@@ -496,7 +496,8 @@ form[name="contact"] input[type="reset"]{
 @media (max-width: 426px){
     .header_container{
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 5px;
     }
     .logo-header{
         width: 20px;
@@ -513,7 +514,7 @@ form[name="contact"] input[type="reset"]{
         font-size: 1em;
     }
     .header_container--search{
-        width: 75%;
+        width: 100%;
         height: auto;
         order: 3;
     }
@@ -551,14 +552,20 @@ form[name="contact"] input[type="reset"]{
         background-color: #F3F4F6;
     }
     .first-banner ul{
+        justify-content: center;
         width: 95%;
         margin: 2px 0px;
         font-size: 0.5em;
         background-color: #FFFFFF;
         border: none
-        
     }
+
+    .first-banner li{
+        margin: 0px 5px;
+    }
+
     footer{
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -594,8 +601,12 @@ form[name="contact"] input[type="reset"]{
     .form-buttons{
         width: 200px;
     }
+    .grid-article{
+        justify-content: flex-start;
+    }
     .grid-container{
-        grid-template-columns: 200px;
+        width: 100%;
+        grid-template-columns: 100%;
         grid-template-rows: 300px 300px 300px 300px;
     }
 }
