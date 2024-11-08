@@ -1,35 +1,34 @@
-/*PALETA DE COLORES:
-    Azul Marino (#1E3A8A): Transmite confianza y profesionalismo.
-    Gris Claro (#F3F4F6): Ideal para fondos, ya que es neutro y no distrae.
-    Blanco (#FFFFFF): Para mantener un diseño limpio y moderno.
+/*  PALETA DE COLORES:
+    Azul Marino (rgba(30, 58, 138, 1)): Transmite confianza y profesionalismo.
+    Gris Claro (rgba(243, 244, 246, 1)): Ideal para fondos, ya que es neutro y no distrae.
+    Blanco (rgba(255, 255, 255, 1)): Para mantener un diseño limpio y moderno.
     Naranja (#F97316): Perfecto para botones de llamada a la acción, ya que es vibrante y llama la atención.
-    Verde (#10B981): Para destacar ofertas especiales o productos ecológicos.
-*/
+    Verde (rgba(16, 185, 129, 1)): Para destacar ofertas especiales o productos ecológicos. */
 
-* {
-    margin: 0px;
-    padding: 0px;
+*{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* HEADER*/
+/* HEADER */
 
-.header_container{
+.header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 70px;
-    background-color: #1E3A8A;
-    color: #FFFFFF;
+    background-color: rgba(30, 58, 138, 100%);
+    color: rgba(255, 255, 255, 100%);
 }
 
-.header_container a{
-    color: white;
+.header-container a{
+    color: rgba(255, 255, 255, 100%);
 }
 
-.header_container--title{
+.header-container-title{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -41,19 +40,19 @@
     position: relative;
     width: 40px;
     height: 40px;
-    margin: 0px 5px;
+    margin: 0 5px;
     bottom: 5px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 100%);
 }
 
 .title-header{
     width: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
-.header_container--search{
+.header-container-search{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +64,7 @@ form[name="search"]{
     width: 100%;
 }
 
-.header_container--search input{
+.header-container-search input{
     width: 100%;
     height: 40px;
     border: 1px solid black;
@@ -74,7 +73,7 @@ form[name="search"]{
     font-size: 1em;
 }
 
-.header_container--user{
+.header-container-user{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,53 +81,53 @@ form[name="search"]{
     height: auto;
 }
 
-.header_container--user ul{
+.header-container-user ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: auto;
 }
 
-.header_container--user ul a{
+.header-container-user ul a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 5px;
+    margin: 0 5px;
     font-size: 1em;
 }
 
-.header_container--user ul img{
+.header-container-user ul img{
     width: 30px;
     height: 42%;
     margin: 5px;
 }
 
-.header_navbar{
+.header-navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 40px;
-    background-color: #162d6b;
-    color: #FFFFFF;
+    background-color: rgba(22, 45, 107, 100%);
+    color: rgba(255, 255, 255, 100%);
 }
 
-.header_navbar ul img{
+.header-navbar ul img{
     width: 30px;
     height: 30px;
 }
 
-.header_navbar--menu{
+.header-navbar-menu{
     display: flex;
     justify-content: left;
     align-items: center;
 }
 
-.header_navbar--menu li{
+.header-navbar-menu li{
     display: flex;
     align-items: center;
 }
 
-.header_navbar--items{
+.header-navbar-items{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -136,30 +135,30 @@ form[name="search"]{
     height: 30px;
 }
 
-.header_navbar--items a{
-    color: #FFFFFF;
+.header-navbar-items a{
+    color: rgba(255, 255, 255, 100%);
 }
 
-.header_navbar--misc{
+.header-navbar-misc{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 300px;
 }
 
-.header_navbar--misc li{
+.header-navbar-misc li{
     display: flex;
     align-items: center;
 }
 
-.header_navbar--misc a{
-    color: #FFFFFF;
+.header-navbar-misc a{
+    color: rgba(255, 255, 255, 100%);
 }
 
-/*MAIN*/
+/* MAIN */
 
 main{
-    background-color: #F3F4F6;
+    background-color: rgba(243, 244, 246, 100%);
 }
 
 .divisor-banner{
@@ -178,16 +177,16 @@ main{
     align-items: center;
     height: auto;
     padding: 5px;
-    margin: 20px 0px;
-    background-color: #FFFFFF;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 100%);
 }
 
 .first-banner ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 5px;
-    padding: 0px 5px;
+    margin: 0 5px;
+    padding: 0 5px;
     width: 30%;
     height: auto;
 }
@@ -206,21 +205,21 @@ main{
     margin: 20px;
     font-size: 2em;
     font-weight: 100;
-    color: #1E3A8A;
+    color: rgba(30, 58, 138, 100%);
 }
 
-.product_container{
+.product-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 20px 20px 40px 20px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 3px #8a8a8b;
+    margin: 20px 20px 40px;
+    background-color: rgba(255, 255, 255, 100%);
+    box-shadow: 1px 1px 3px rgba(138, 138, 139, 100%);
 }
 
-.product_container--card{
+.product-container-card{
     width: 250px;
     height: 400px;
     margin: 30px 20px;
@@ -228,34 +227,34 @@ main{
     overflow: hidden;
 }
 
-.product_container--card img{
+.product-container-card img{
     width: 265px;
     height: auto;
 }
 
-.product_container--card p{
-    margin: 5px 0px;
+.product-container-card p{
+    margin: 5px 0;
 }
 
-.product_container--card strong{
+.product-container-card strong{
     font-size: 1.5em;
 }
 
-.product_container--card del{
+.product-container-card del{
     text-decoration: line-through;
-    color: #8a8a8b;
+    color: rgba(138, 138, 139, 100%);
 }
 
-.product_container--inside_container {
+.product-container-inside-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.product_container--inside_container img{
+.product-container-inside-container img{
     width: 25px;
     height: 25px;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 .delivery-card{
@@ -265,8 +264,8 @@ main{
     height: 30px;
     margin: 5px;
     text-align: center;
-    color: #FFFFFF;
-    background-color: #10B981;
+    color: rgba(255, 255, 255, 100%);
+    background-color: rgba(16, 185, 129, 100%);
 }
 
 .divisor{
@@ -292,18 +291,18 @@ main{
     font-size: 7vw;
     width: 40vw;
     height: auto;
-    padding: 20px 30px 20px 30px;
-    margin: 0px 10px;
+    padding: 20px 30px;
+    margin: 0 10px;
     font-weight: bold;
-    color: #FFFFFF;
-    background-color: #1E3A8A;
+    color: rgba(255, 255, 255, 100%);
+    background-color: rgba(30, 58, 138, 100%);
 }
 
-/*FOOTER*/
+/* FOOTER */
 
 .footer-upper-container{
     height: 33px;
-    background-color: #162d6b;
+    background-color: rgba(22, 45, 107, 100%);
 }
 
 footer{
@@ -312,9 +311,9 @@ footer{
     justify-content: space-around;
     align-items: start;
     height: auto;
-    padding: 10px 10px 30px 10px;
-    background-color: #1E3A8A;
-    color: #FFFFFF;
+    padding: 10px 10px 30px;
+    background-color: rgba(30, 58, 138, 100%);
+    color: rgba(255, 255, 255, 100%);
 }
 
 .footer-main-container{
@@ -346,33 +345,33 @@ footer{
     padding: 5px;
 }
 
-.footer-container--items{
+.footer-container-items{
     display: flex;
     justify-content: center;
     align-items: start;
 }
 
-.footer-container--items ul{
+.footer-container-items ul{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.footer-container--items li{
+.footer-container-items li{
     padding: 10px;
 }
 
-.footer-container--items p{
+.footer-container-items p{
     font-size: 1.3em;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.footer-container--items a{
-    color: white;
+.footer-container-items a{
+    color: rgba(255, 255, 255, 100%);
 }
 
-/*PAGINA DE CONTACTO*/
+/* PAGINA DE CONTACTO */
 
 fieldset{
     border: none;
@@ -384,12 +383,12 @@ form[name="contact"]{
     align-items: flex-start;
     padding: 10px;
     margin: 20px;
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 3px #8a8a8b;
+    background-color: rgba(255, 255, 255, 100%);
+    box-shadow: 1px 1px 3px rgba(138, 138, 139, 100%);
 }
 
 form[name="contact"] label{
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 form[name="contact"] input{
@@ -398,7 +397,7 @@ form[name="contact"] input{
     width: 350px;
     height: 30px;
     padding: 5px;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 form[name="contact"] select, input[name="tel-number"]{
@@ -407,7 +406,7 @@ form[name="contact"] select, input[name="tel-number"]{
     width: 350px;
     height: 30px;
     padding: 5px;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 form[name="contact"] textarea{
@@ -415,7 +414,7 @@ form[name="contact"] textarea{
     justify-content: center;
     width: 350px;
     padding: 5px;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 form[name="contact"] input[type="submit"]{
@@ -423,8 +422,8 @@ form[name="contact"] input[type="submit"]{
     height: 40px;
     margin: 10px;
     padding: 5px;
-    color: #FFFFFF;
-    background-color: #1E3A8A;
+    color: rgba(255, 255, 255, 100%);
+    background-color: rgba(30, 58, 138, 100%);
     border: none;
 }
 
@@ -433,8 +432,8 @@ form[name="contact"] input[type="reset"]{
     height: 40px;
     margin: 10px;
     padding: 5px;
-    color: #FFFFFF;
-    background-color: #1E3A8A;
+    color: rgba(255, 255, 255, 100%);
+    background-color: rgba(30, 58, 138, 100%);
     border: none;
 }
 
@@ -445,7 +444,7 @@ form[name="contact"] input[type="reset"]{
     width: 360px;
 }
 
-/*USER*/
+/* USER */
 
 .grid-article{
     display: flex;
@@ -470,17 +469,17 @@ form[name="contact"] input[type="reset"]{
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 100%);
 }
 
 .grid-item:hover{
-    border: 1px solid #1E3A8A;
+    border: 1px solid rgba(30, 58, 138, 100%);
 }
 
 .grid-item img{
     width: 20%;
     height: auto;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .grid-item div{
@@ -491,77 +490,103 @@ form[name="contact"] input[type="reset"]{
     padding: 5px;
 }
 
-/*MEDIA QUERYS*/
+/* MEDIA QUERYS */
 
 @media (max-width: 426px){
-    .header_container{
+
+    .header-container{
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 5px;
+        padding: 2px 0 5px;
     }
+
     .logo-header{
         width: 20px;
         height: 20px;
         bottom: 3px;
-        margin: 0px;
+        margin: 0;
     }
-    .header_container--title{
+
+    .header-container-title{
         order: 1;
         width: auto;
-        height: auto;
+        height: 40px; /* auto */
     }
+
+    .header-container-title img{
+        height: 25px;
+        width: 25px;
+    }
+
     .title-header{
-        font-size: 1em;
+        margin-right: 0;
+        font-size: 1.2em;
     }
-    .header_container--search{
+
+    .header-container-search{
         width: 100%;
-        height: auto;
+        height: 30px;
         order: 3;
     }
-    .header_container--search input{
-        height: 20px;
+
+    .header-container-search input{
+        height: 25px;
     }
-    .header_container--user{
-        order:2;
+
+    .header-container-user{
+        order: 2;
         width: auto;
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
-    .header_container--user ul img{
+
+    .header-container-user ul img{
         width: 20px;
         height: 20px;
-        margin: 0px 5px;
+        margin: 0 1px;
     }
-    .header_navbar{
+
+    .header-container-user ul li a{
+        margin: 0;
+    }
+
+    .header-navbar{
         height: auto;
     }
-    .header_navbar--items{
+
+    .header-navbar-items{
         display: none;
     }
-    .header_navbar--misc{
+
+    .header-navbar-misc{
         display: none;
     }
+
     .subtitle{
         font-size: 1.5em;
     }
+
     .divisor-banner{
-        height: 100px;
+        height: 130px;
     }
+
     .first-banner{
         flex-wrap: wrap;
-        margin: 5px 0px;
-        background-color: #F3F4F6;
+        margin: 5px 0;
+        background-color: rgba(243, 244, 246, 100%);
     }
+
     .first-banner ul{
         justify-content: center;
         width: 95%;
-        margin: 2px 0px;
+        height: 50px;
+        margin: 2px 0;
         font-size: 0.5em;
-        background-color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 100%);
         border: none
     }
 
     .first-banner li{
-        margin: 0px 5px;
+        margin: 0 5px;
     }
 
     footer{
@@ -569,44 +594,52 @@ form[name="contact"] input[type="reset"]{
         justify-content: center;
         align-items: center;
     }
+
     .footer-main-container{
         flex-direction: column;
     }
-    .footer-container--items{
+
+    .footer-container-items{
         flex-direction: column;
         align-items: center;
     }
+
     form[name="contact"]{
         width: 85%;
     }
+
     form[name="contact"] input{
         width: 80%;
     }
+
     form[name="contact"] select, input[name="tel-number"]{
         width: 200px;
     }
-    
+
     form[name="contact"] textarea{
         width: 200px;
     }
-    
+
     form[name="contact"] input[type="submit"]{
         width: 200px;
     }
-    
+
     form[name="contact"] input[type="reset"]{
         width: 200px;
     }
-    
+
     .form-buttons{
         width: 200px;
     }
+
     .grid-article{
         justify-content: flex-start;
     }
+
     .grid-container{
         width: 100%;
         grid-template-columns: 100%;
         grid-template-rows: 300px 300px 300px 300px;
     }
+    
 }
