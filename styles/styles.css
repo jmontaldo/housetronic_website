@@ -497,7 +497,7 @@ form[name="contact"] input[type="reset"]{
     .header-container{
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 2px 0 5px;
+        padding: 2px 3px 10px;
     }
 
     .logo-header{
@@ -510,7 +510,7 @@ form[name="contact"] input[type="reset"]{
     .header-container-title{
         order: 1;
         width: auto;
-        height: 40px; /* auto */
+        height: 40px;
     }
 
     .header-container-title img{
@@ -530,7 +530,7 @@ form[name="contact"] input[type="reset"]{
     }
 
     .header-container-search input{
-        height: 25px;
+        height: 30px;
     }
 
     .header-container-user{
@@ -578,9 +578,9 @@ form[name="contact"] input[type="reset"]{
     .first-banner ul{
         justify-content: center;
         width: 95%;
-        height: 50px;
+        height: 60px;
         margin: 2px 0;
-        font-size: 0.5em;
+        font-size: 0.7em;
         background-color: rgba(255, 255, 255, 100%);
         border: none
     }
