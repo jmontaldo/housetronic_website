@@ -6,18 +6,17 @@ menu.addEventListener("click", () => {
 const tablaResumen = document.querySelector(".tabla-compra");
 const precioFinal = document.querySelectorAll(".subtitle");
 const btns = document.querySelectorAll(".btns");
-const listaCompras = sessionStorage.getItem("resumen").split(",");
+const listaCompras = JSON.parse(sessionStorage.getItem("resumen"));
 const total = sessionStorage.getItem("total");
 
 for(let i = 0; i < listaCompras.length; i++){
     let row = document.createElement("tr");
     let producto = document.createElement("td");
-    producto.innerHTML = listaCompras[i];
+    let precio = document.createElement("td");
+    producto.innerHTML = listaCompras[i].producto;
     producto.colSpan = 3;
     row.appendChild(producto);
-    i ++;
-    let precio = document.createElement("td");
-    precio.innerHTML = listaCompras[i];
+    precio.innerHTML = listaCompras[i].precio;
     row.appendChild(precio);
     tablaResumen.appendChild(row);
 }

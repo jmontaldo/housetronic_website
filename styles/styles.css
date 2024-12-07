@@ -669,6 +669,11 @@ form[name="contact"] input[type="reset"]{
         display: none;
     }
 
+    .hidden-menu{
+        top: 75px;
+        background-color: rgba(30, 58, 138, 100%);
+    }
+
     .subtitle{
         font-size: 1.5em;
     }
@@ -749,5 +754,8 @@ form[name="contact"] input[type="reset"]{
         grid-template-columns: 100%;
         grid-template-rows: 300px 300px 300px 300px;
     }
-    
+
+    .tabla-compra{
+        width: 250px;
+    }
 }
