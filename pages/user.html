@@ -23,15 +23,23 @@
             </div>
             <div class="header-container-user">
                 <ul>
-                    <li><a href="#"><img src="../media/profile-pic.png" alt="user-pic">Mi cuenta</a></li>
-                    <li><a href="#"><img src="../media/shopping-cart-icon.png" alt="logo de un carrito de compras">Mi carrito</a></li>
+                    <li><a href="user.html"><img src="../media/profile-pic.png" alt="user-pic">Mi cuenta</a></li>
+                    <li><a href="total-buy.html"><img src="../media/shopping-cart-icon.png" alt="logo de un carrito de compras">Mi carrito</a></li>
                 </ul>
             </div>
         </div>
         <nav class="header-navbar">
-            <ul class="header-navbar-menu">
-                <li><img src="../media/menu-icon.png" alt="logo de menú">Más productos</li>
-            </ul>
+            <div class="header-navbar-menu" id="menu">
+                <img src="../media/menu-icon.png" alt="logo de menú">
+                <div class="hidden-menu" id="hidden-menu">
+                    <ul>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Televisores</a></li>
+                        <li><a href="#">Celulares</a></li>
+                        <li><a href="#">Lavarropas</a></li>
+                    </ul>
+                </div>
+            </div>
             <ul class="header-navbar-items">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Televisores</a></li>
@@ -47,7 +55,6 @@
     <main>
         <section>
             <article class="grid-article">
-                <!--INICIO-->
                 <div class="grid-container">
                     <div class="grid-item">
                         <img src="../media/user.png" alt="avatar">
@@ -82,7 +89,6 @@
                         </div>
                     </div>
                 </div>
-                <!--FIN-->
             </article>
         </section>
     </main>
@@ -127,5 +133,6 @@
             </ul>
         </div>
     </footer>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>

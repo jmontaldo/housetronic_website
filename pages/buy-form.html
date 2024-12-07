@@ -24,7 +24,7 @@
             <div class="header-container-user">
                 <ul>
                     <li><a href="user.html"><img src="../media/profile-pic.png" alt="user-pic">Mi cuenta</a></li>
-                    <li><a href="total-buy.html"><img src="../media/shopping-cart-icon.png" alt="logo de un carrito de compras">Mi carrito</a></li>
+                    <li><a href="#"><img src="../media/shopping-cart-icon.png" alt="logo de un carrito de compras">Mi carrito</a></li>
                 </ul>
             </div>
         </div>
@@ -56,21 +56,14 @@
         <section>
             <article>
                 <fieldset>
-                    <h2 class="subtitle">Contactenos</h2>
-                    <form name="contact" method="POST" action="https://formspree.io/f/xanwgkyp">
+                    <h2 class="subtitle">Datos del comprador</h2>
+                    <form name="contact" method="POST" action="https://formspree.io/f/meoqwooj">
                         <label>Nombre: <input type="text" size="30" name="name"></label>
                         <label>DNI: <input type="number" size="8" name="dni" required="true"></label>
                         <label>Teléfono: <input type="number" size="10" name="tel-number" placeholder="Ingrese su número sin 0 ni espacios"></label>
                         <label>Localidad: <input type="text" size="30" name="site"></label>
                         <label>Email: <input type="email" name="email"></label>
-                        <label>Motivo de consulta:
-                            <select name="motive">
-                                <option>Consulta por compra online</option>
-                                <option>Consulta por compra en sucursal</option>
-                                <option>Otra consulta</option>
-                            </select>
-                        </label>
-                        <label>Consulta: <textarea rows="10" cols="10" name="coments"></textarea></label>
+                        <label>Compra: <textarea rows="10" cols="10" name="coments" readonly="true" id="resumen-compra"></textarea></label>
                         <div class="form-buttons">
                             <input type="submit" value="Enviar">
                             <input type="reset" value="Borrar">
@@ -121,6 +114,6 @@
             </ul>
         </div>
     </footer>
-    <script src="../js/scripts.js"></script>
+    <script src="../js/buy-form.js"></script>
 </body>
 </html>
