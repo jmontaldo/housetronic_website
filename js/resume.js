@@ -6,7 +6,7 @@ menu.addEventListener("click", () => {
 const tablaResumen = document.querySelector(".tabla-compra");
 const precioFinal = document.querySelectorAll(".subtitle");
 const btns = document.querySelectorAll(".btns");
-const listaCompras = JSON.parse(sessionStorage.getItem("resumen"));
+const listaCompras = JSON.parse(sessionStorage.getItem("resumen")) || [];
 const total = sessionStorage.getItem("total");
 
 for(let i = 0; i < listaCompras.length; i++){
@@ -26,7 +26,6 @@ btns.forEach(event => {
     event.addEventListener("click", e => {
         if(e.target.innerHTML == "Comprar"){
             window.location.href = "buy-form.html";
-            sessionStorage.clear();
         } else {
             let confirmar = confirm("¿Desea cancelar la compra?");
             if (confirmar){

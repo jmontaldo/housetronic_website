@@ -116,7 +116,7 @@ for(let i = 0; i < btnComprar.length; i++){
                 agregarItem(productos);
             }
         }
-    })
+    });
 }
 
 for(let i = 0; i < infoButton.length; i++){
@@ -129,3 +129,13 @@ for(let i = 0; i < infoButton.length; i++){
         }
     });
 }
+
+carrito.addEventListener("click", () => {
+    if(sessionStorage.getItem("resumen") == null){
+        alert("¡El carrito está vacio! Compra algo para ver tus productos.")
+        window.location.href = "index.html";
+    } else {
+        window.location.href = "pages/total-buy.html";
+        console.log(sessionStorage.getItem("resumen"));
+    }
+});
