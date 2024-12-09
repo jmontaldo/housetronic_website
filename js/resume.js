@@ -25,9 +25,11 @@ btns.forEach(event => {
     event.addEventListener("click", e => {
         if(e.target.innerHTML == "Comprar"){
             window.location.href = "buy-form.html";
+            sessionStorage.clear();
         } else {
             let confirmar = confirm("¿Desea cancelar la compra?");
             if (confirmar){
+                console.log(confirmar)
                 sessionStorage.clear();
                 window.location.href = "../index.html";
             }
