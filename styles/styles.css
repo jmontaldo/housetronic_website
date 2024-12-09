@@ -600,7 +600,7 @@ form[name="contact"] input[type="reset"]{
 
 /* MEDIA QUERYS */
 
-@media (max-width: 426px){
+@media (max-width: 500px){
 
     .header-container{
         flex-wrap: wrap;

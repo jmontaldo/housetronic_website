@@ -20,6 +20,7 @@ for(let i = 0; i < listaCompras.length; i++){
     row.appendChild(precio);
     tablaResumen.appendChild(row);
 }
+
 precioFinal[1].innerHTML = "Total: " + total;
 btns.forEach(event => {
     event.addEventListener("click", e => {

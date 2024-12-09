@@ -91,7 +91,7 @@ function verDescripcion(desc, card){
         p.style.border = "1px solid white";
         p.style.background = "#F97316";
         p.style.color = "white";
-        p.style.padding = "none";
+        p.style.padding = "3px";
         p.style.margin = "5px";
         p.style.cursor = "pointer";
         p.style.fontStyle = "italic";
