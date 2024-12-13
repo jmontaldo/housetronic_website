@@ -14,9 +14,11 @@ for(let i = 0; i < listaCompras.length; i++){
     let producto = document.createElement("td");
     let precio = document.createElement("td");
     producto.innerHTML = listaCompras[i].producto;
-    producto.colSpan = 3;
+    producto.colSpan = 4;
+    producto.style.padding = "5px";
     row.appendChild(producto);
     precio.innerHTML = listaCompras[i].precio;
+    precio.style.padding = "5px";
     row.appendChild(precio);
     tablaResumen.appendChild(row);
 }
